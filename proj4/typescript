@@ -1,0 +1,33 @@
+Script started on 2018-11-18 19:41:02-05:00
+[haojunz1@linux1 proj4-late1] g++ -I . ../../00Proj4/p4test1.cpp -o t1.out
+[haojunz1@linux1 proj4-late1] g++ -I . ../../00Proj4/p4test2.cpp -o t2.out
+[haojunz1@linux1 proj4-late1] g++ -I ../../00Proj4/ -I . ../../00Proj4/City.cpp ../../00Proj4/p4test3.cpp -o t3.o ut
+[haojunz1@linux1 proj4-late1] g++ -I ../../00Proj4/ -I . ../../00Proj4/City.cpp ../../00Proj4/p4test4.cpp -o t4.o ut
+[haojunz1@linux1 proj4-late1] g++ -I ../../00Proj4/ -I . ../../00Proj4/City.cpp ../../00Proj4/p4test5.cpp -o t5.o ut
+[haojunz1@linux1 proj4-late1] g++ -I ../../00Proj4/ -I . ../../00Proj4/City.cpp ../../00Proj4/p4test6.cpp -o t6.o ut
+In file included from [01m[K./MedianHeap.h:69[m[K,
+                 from [01m[K../../00Proj4/p4test6.cpp:14[m[K:
+[01m[K./MedianHeap.cpp:[m[K In member function ‘[01m[Kconst MedianHeap<T>& MedianHeap<T>::operator=(const MedianHeap<T>&) [with T = City][m[K’:
+[01m[K./MedianHeap.cpp:86:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[haojunz1@linux1 proj4-late1] g++ -I . ../../00Proj4/p4test7.cpp -o t7.out
+[haojunz1@linux1 proj4-late1] time ./t7.out 15000
+checkMin = 461820641
+checkMed = -1960546811
+checkMax = 408644184
+1.149u 0.009s 0:01.17 97.4%	0+0k 0+0io 0pf+0w
+[haojunz1@linux1 proj4-late1] time ./t7.out 1500050000[K000[K30000000000
+checkMin = 1192860001
+checkMed = 231626757
+checkMax = -303568720
+2.197u 0.023s 0:02.24 98.6%	0+0k 0+0io 0pf+0w
+[haojunz1@linux1 proj4-late1] time ./t7.out 30000[P[1@60000
+checkMin = -1898322335
+checkMed = -2102808571
+checkMax = -1265884832
+4.595u 0.037s 0:04.66 99.1%	0+0k 0+0io 0pf+0w
+[haojunz1@linux1 proj4-late1] exit
+exit
+
+Script done on 2018-11-18 19:43:22-05:00
